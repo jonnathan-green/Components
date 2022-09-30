@@ -30,6 +30,7 @@ body{
     grid-template-columns: 1fr 2fr;
     padding: 40px;
     padding-bottom: 0;
+    
 }
 
 .container .top .image_box{
@@ -72,6 +73,7 @@ body{
     line-height: 1.2em;
     font-weight: 600;
     color: #333;
+    margin-left: 25px;
 }
 
 .container .top .profile_text h3 span{
@@ -87,6 +89,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 0 40px 40px;
+    gap: 45px;
 }
 
 .container .content_box h3{
@@ -142,3 +145,69 @@ h6{
     font-weight: 300;
     font-size: 1em;
 }
+
+.language li {
+    flex-direction: column;
+}
+
+.language li span {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.language .percent{
+    position: relative;
+    width: 100%;
+    background: #e3e3e3;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #3590d2;
+}
+
+.container .content_box ul.interest{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .content_box ul.interest li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0 ;
+    line-height: 22px;
+
+}
+
+.container .content_box ul.interest li .icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #3590d2;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .content_box ul.interest li .icon ion-icon{
+    color: #fff;
+    margin-right: 0;
+}
+p{
+    font-style: 300;
+}
+
+
+
